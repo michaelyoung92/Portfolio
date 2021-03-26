@@ -214,6 +214,7 @@ footer{
         color: $accentColor;
         text-transform: capitalize;
         cursor: pointer;
+        font-weight: bold;
 
         &:first-of-type{
             margin-bottom: 0.5em;
@@ -230,6 +231,7 @@ footer{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    max-width: 380px;
 
     img{
         width: 100%;
@@ -239,7 +241,7 @@ footer{
 
 .project-description{
     margin-bottom: 1em;
-    p:first-of-type{
+    p{
         margin-bottom: 1em
     }
 
